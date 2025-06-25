@@ -1,0 +1,26 @@
+body{
+    background-color: #dfdfdf;}
+    
+  .parent{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;  
+    padding: 10px;  
+    border-radius: 5px; 
+  background-color: #ffffff;
+  .razor {
+      margin-top: 5px;
+  }
+  .link {
+      padding-left: 300px;}
+   input[type="email"] {
+    width: 500px;
+    height: 15px;  }
+   input[type="password"] {
+    width: 500px;
+    height: 15px;
+    margin-top: 5px;}
+    button {
+        margin-left: 250px;
+    }
