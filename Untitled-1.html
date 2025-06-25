@@ -1,0 +1,33 @@
+<!<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Название страницы</title>
+</head>
+<body>
+    <h1>Домашня работа с формой</h1>
+    <div class="parent">
+    <form action="/submit" method="post">
+    <div class="email">    
+        <label for="name">Почта</label>
+    </div>
+        <div class="email">
+        <input type="email" id="email" placeholder="example@domain.com">
+    </div>
+    <div class="password">
+        <label for="password">Пароль</label>
+        <a class="link" href="vspomniparol.ru">Забыли пароль?</a>
+    </div>
+    <div class="password">
+        <input type="password" id="password" placeholder="Введите пароль">
+    </div>
+    <div class="razor">
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">Запомни меня</label>
+        <button type="submit">Войти</button>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
